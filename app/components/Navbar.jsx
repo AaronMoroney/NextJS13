@@ -13,6 +13,7 @@ export default function Navbar() {
           />
           <Link href='/'>Dashboard</Link>
           <Link href='/tickets'>Tickets</Link>
+          <Link href='/tickets/create'>Add ticket</Link>
         </nav>
     </div>
   )
