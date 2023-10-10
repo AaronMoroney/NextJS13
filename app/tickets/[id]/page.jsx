@@ -1,6 +1,5 @@
 //generate a 404 page if they land on page w/ ticket doesn't exist
 import { notFound } from "next/navigation"
-
 /*
 for new requests to an id with non-exisiting static page, 
 next, will try to run a new fetch, find it, cache it, and serve it 
