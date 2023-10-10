@@ -2,6 +2,9 @@ import Link from "next/link";
 
 //keep data outside of the main comp for cleanliness
 async function getTickets() {
+    //imitate delay
+    await new Promise(resolve => setTimeout(resolve, 1500))
+
     const response = await fetch('http://localHost:4000/tickets', {
         next: {
             revalidate: 0
